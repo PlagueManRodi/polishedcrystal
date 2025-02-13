@@ -1,5 +1,10 @@
+if DEF(FAITHFUL)
 	db  80,  82, 100,  80,  83, 100 ; 525 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db  90,  60, 100,  80,  105, 100 ; 535 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
 if DEF(FAITHFUL)
 	db GRASS, GRASS ; type
