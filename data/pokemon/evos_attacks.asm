@@ -6399,6 +6399,7 @@ UrsalunaPlainEvosAttacks:
 	db 25, PLAY_ROUGH ; Play Nice → egg move
 	db 29, SLASH
 	db 38, SCARY_FACE
+	db 45, EARTHQUAKE
 	db 47, REST
 	db 49, CRUNCH ; Snore → egg move
 	db 58, THRASH
@@ -6422,6 +6423,7 @@ UrsalunaBloodmoonEvoAttacks:
 	db 25, SHADOW_BALL ; new move
 	db 29, SLASH
 	db 38, SCARY_FACE
+	db 45, EARTH_POWER
 	db 47, REST
 	db 49, NIGHT_SLASH ; Snore → egg move
 	db 58, MOONBLAST
