@@ -1,5 +1,10 @@
+if DEF(FAITHFUL)
 	db  85,  73,  70,  67,  73, 115 ; 483 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db  95,  83,  70,  60, 83, 115 ; 506 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
 	db PSYCHIC, PSYCHIC ; type
 	db 75 ; catch rate
@@ -7,7 +12,11 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
+if DEF(FAITHFUL)
 	abilities_for HYPNO, INSOMNIA, FOREWARN, INNER_FOCUS
+else
+	abilities_for HYPNO, INSOMNIA, PRANKSTER, INNER_FOCUS
+endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 
