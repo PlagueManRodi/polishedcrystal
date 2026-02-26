@@ -331,7 +331,7 @@
 
 	def_water_wildmons STORMY_BEACH
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
+	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
 	wildmon LEVEL_FROM_BADGES - 5, STARYU
 	wildmon LEVEL_FROM_BADGES + 0, TENTACRUEL
 	end_water_wildmons
